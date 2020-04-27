@@ -1,0 +1,51 @@
+{
+    "MasterData": {
+        "Customers": [
+            {
+                "Name": "John Taylor",
+                "Address": "8645 N Macarthur",
+                "City": "Irving",
+                "State": "TX",
+                "Zip": 75063,
+                "Buys": 20,
+                "SaleAmount": 1200
+            },
+            {
+                "Name": "Eric Balmar",
+                "Address": "8637 N Macarthur",
+                "City": "Irving",
+                "State": "TX",
+                "Zip": 75063,
+                "Buys": 25,
+                "SaleAmount": 1800
+            },
+            {
+                "Name": "Steve Wright",
+                "Address": "8800 Chase Oaks",
+                "City": "Plano",
+                "State": "TX",
+                "Zip": 75093,
+                "Buys": 30,
+                "SaleAmount": 2100
+            },
+            {
+                "Name": "Sinha Rajesh",
+                "Address": "8800 Chase Oaks",
+                "City": "Plano",
+                "State": "TX",
+                "Zip": 75093,
+                "Buys": 50,
+                "SaleAmount": 25000
+            },
+            {
+                "Name": "Vipin Kumar",
+                "Address": "1100 Chase Oaks",
+                "City": "Jackson",
+                "State": "MI",
+                "Zip": 4560,
+                "Buys": 50,
+                "SaleAmount": 3000
+            }
+        ]
+    }
+}

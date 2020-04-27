@@ -1,0 +1,19 @@
+{
+  "InventoryItem": [
+    {
+      "Name": "BSS DSP",
+      "Model": "Model1",
+      "Price": 3000
+    },
+    {
+      "Name": "BSS DSP",
+      "Model": "Model1",
+      "Price": 3000
+    },
+    {
+      "Name": "BSS DSP",
+      "Model": "Model1",
+      "Price": 3000
+    }
+  ]
+}

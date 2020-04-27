@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="row w-100">
+    <div class="col-3 float-md-left">
+      <a class="navbar-brand" href="#">ARU</a>
+    </div>
+    <div class="col-8 float-md-right">
+      <ul class="navbar-nav float-md-right">
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/dashboard']">Dashboard<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/inventory']">Inventory<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Management
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/customers']">Customers</a>
+            <a class="dropdown-item" href="#">New Customers</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">New Inventory</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
